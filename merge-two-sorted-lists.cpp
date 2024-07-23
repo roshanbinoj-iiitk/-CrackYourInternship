@@ -39,7 +39,7 @@ public:
         if (!list1)
             curr->next = list2;
         else
-            curr->next = list1;
+            curr->next = list1; 
 
         return ptr;
     }
